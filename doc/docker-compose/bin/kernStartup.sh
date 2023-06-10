@@ -51,13 +51,13 @@ echo '======================'
 echo '=====开始运行前台====='
 echo '======================'
 
-echo '=====开始运行vue_mogu_admin====='
-docker-compose -f ../yaml/vue_mogu_admin.yml up -d
-
-
-echo '=====开始运行vue_mogu_web====='
-docker-compose -f ../yaml/vue_mogu_web.yml up -d
-
+#echo '=====开始运行vue_mogu_admin====='
+#docker-compose -f ../yaml/vue_mogu_admin.yml up -d
+#
+#
+#echo '=====开始运行vue_mogu_web====='
+#docker-compose -f ../yaml/vue_mogu_web.yml up -d
+#
 echo '================================================================='
 echo '=====【微服务启动需要耗费一定时间，请到Nacos中查看启动情况】====='
 echo '================================================================='
